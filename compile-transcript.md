@@ -1,4 +1,4 @@
 ```ucm:hide
-.> pull tapegram.public.project.helloworldserver .
+.> pull.without-history tapegram.public.project.helloworldserver .
 .> compile main server
 ```
