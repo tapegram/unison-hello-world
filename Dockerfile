@@ -6,4 +6,4 @@ COPY compile-transcript.md .
 RUN ["ucm", "transcript", "compile-transcript.md"]
 
 # Run the compiled file
-ENTRYPOINT ["ucm", "run.compiled", "server.uc", , "+RTS", "-N"]
+ENTRYPOINT ["ucm", "run.compiled", "server.uc", "+RTS", "-N"]
